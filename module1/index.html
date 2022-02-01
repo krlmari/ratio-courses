@@ -13,7 +13,7 @@
   </head>
 
   <body class="body">
-    <header class="header block-centered">
+    <header class="header block-centered" id="header">
       <img src="images/Logo.svg" class="header__logo logo" />
 
       <nav class="menu">
@@ -135,9 +135,10 @@
         <div class="testimonials__container block-absolute">
           <h2 class="testimonials__title">Testimonials</h2>
         </div>
+
         <div class="slider">
           <div class="slider-item">
-            <div class="testimonials__avatar"></div>
+            <img src="images/avatar-1.jpg" class="testimonials__avatar" />
             <div class="testimonials__content">
               <p class="testimonials__name">John Fang</p>
               <a href="" class="testimonials__href">wordfaang.com</a>
@@ -148,10 +149,10 @@
             </div>
           </div>
           <div class="slider-item">
-            <div class="testimonials__avatar"></div>
+            <img src="images/avatar-2.jpg" class="testimonials__avatar" />
             <div class="testimonials__content">
-              <p class="testimonials__name">John Fang</p>
-              <a href="" class="testimonials__href">wordfaang.com</a>
+              <p class="testimonials__name">Jeny Doe</p>
+              <a href="" class="testimonials__href">UX Engineer</a>
               <p class="testimonials__text">
                 Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor
                 ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
@@ -159,15 +160,36 @@
             </div>
           </div>
           <div class="slider-item">
-            <div class="testimonials__avatar"></div>
+            <img src="images/avatar-3.jpg" class="testimonials__avatar" />
             <div class="testimonials__content">
-              <p class="testimonials__name">John Fang</p>
-              <a href="" class="testimonials__href">wordfaang.com</a>
+              <p class="testimonials__name">William</p>
+              <a href="" class="testimonials__href">Web Designer</a>
               <p class="testimonials__text">
                 Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor
                 ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
               </p>
             </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <div class="flex-center">
+            <input type="radio" name="point" id="slide1" checked />
+            <label for="slide1"></label>
+
+            <input type="radio" name="point" id="slide2" />
+            <label for="slide2"></label>
+
+            <input type="radio" name="point" id="slide3" />
+            <label for="slide3"></label>
+
+            <input type="radio" name="point" id="slide4" />
+            <label for="slide4"></label>
+          </div>
+
+          <div>
+            <button class="slider-button">&#8592;</button>
+            <button class="slider-button">&#8594;</button>
           </div>
         </div>
       </section>
@@ -214,5 +236,7 @@
         Company Registration Number: 21479524.
       </p>
     </footer>
+
+    <div><a href="#header" class="idHeader">&#8593;</a></div>
   </body>
 </html>
