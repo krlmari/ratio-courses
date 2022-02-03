@@ -1,0 +1,11 @@
+.horizontal-line {
+  margin-top: 165px;
+  color: #9c69e2;
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 580px) {
+  .horizontal-line {
+    margin-top: 125px;
+  }
+}

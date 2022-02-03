@@ -1,0 +1,13 @@
+.features__text {
+  position: absolute;
+  top: 49px;
+  right: 50px;
+  max-width: 220px;
+}
+
+@media screen and (max-width: 580px) {
+  .features__text {
+    top: 55px;
+    right: 10px;
+  }
+}

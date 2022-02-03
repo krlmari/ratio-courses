@@ -1,0 +1,20 @@
+.about__title {
+  font-weight: bold;
+  color: #212353;
+  font-size: 80px;
+  line-height: 1.1;
+  max-width: 645px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1260px) {
+  .about__title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .about__title {
+    font-size: 40px;
+  }
+}

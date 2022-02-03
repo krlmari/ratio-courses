@@ -1,0 +1,12 @@
+.features__card {
+  padding-left: 96px;
+  position: relative;
+  max-width: 442px;
+  height: 358px;
+}
+
+@media screen and (max-width: 580px) {
+  .features__card {
+    padding-left: 0px;
+  }
+}

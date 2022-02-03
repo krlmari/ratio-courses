@@ -1,0 +1,15 @@
+.about__image {
+  position: absolute;
+  background-image: url("./images/about.png");
+  height: 468px;
+  max-width: 885px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1260px) {
+  .about__image {
+    right: auto;
+  }
+}

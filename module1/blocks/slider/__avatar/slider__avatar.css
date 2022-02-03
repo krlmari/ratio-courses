@@ -1,0 +1,8 @@
+.slider__avatar {
+  align-self: flex-start;
+  margin-top: 60px;
+  width: 90px;
+  height: 90px;
+  background-image: url("./images/avatar.jpg");
+  background-repeat: no-repeat;
+}

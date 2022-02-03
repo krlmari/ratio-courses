@@ -1,0 +1,9 @@
+.features {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 580px) {
+  .features {
+    margin-top: 100px;
+  }
+}

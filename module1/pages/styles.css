@@ -1,0 +1,167 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/block-centered/block-centered.css);
+@import url(../blocks/block-relative/block-relative.css);
+@import url(../blocks/block-absolute/block-absolute.css);
+@import url(../blocks/container-fluid/container-fluid.css);
+@import url(../blocks/flex-center/flex-center.css);
+@import url(../blocks/flex-row/flex-row.css);
+@import url(../blocks/horizontal-line/horizontal-line.css);
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__link/menu__link.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/about/__button/about__button.css);
+@import url(../blocks/about/__image/about__image.css);
+
+@import url(../blocks/about-place/about-place.css);
+@import url(../blocks/about-place/__image/about-place__image.css);
+@import url(../blocks/about-place/__text/about-place__text.css);
+@import url(../blocks/about-place/__title/about-place__title.css);
+@import url(../blocks/about-place/__description/about-place__description.css);
+
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__background/features__background.css);
+@import url(../blocks/features/__card-header/features__card-header.css);
+@import url(../blocks/features/__card-image/features__card-image.css);
+@import url(../blocks/features/__card-text/features__card-text.css);
+@import url(../blocks/features/__card/features__card.css);
+@import url(../blocks/features/__description/features__description.css);
+@import url(../blocks/features/__header/features__header.css);
+@import url(../blocks/features/__info/features__info.css);
+@import url(../blocks/features/__learn-more/features__learn-more.css);
+@import url(../blocks/features/__text/features__text.css);
+@import url(../blocks/features/__title/features__title.css);
+
+@import url(../blocks/testimonials/testimonials.css);
+@import url(../blocks/testimonials/__container/testimonials__container.css);
+@import url(../blocks/testimonials/__title/testimonials__title.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__avatar/slider__avatar.css);
+@import url(../blocks/slider/__content/slider__content.css);
+@import url(../blocks/slider/__href/slider__href.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__name/slider__name.css);
+@import url(../blocks/slider/__text/slider__text.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__conteiner/footer__conteiner.css);
+
+@import url(../blocks/social-media/social-media.css);
+@import url(../blocks/social-media/__header/social-media__header.css);
+@import url(../blocks/social-media/__icon/social-media__icon.css);
+@import url(../blocks/social-media/__icons/social-media__icons.css);
+@import url(../blocks/social-media/__social/social-media__social.css);
+
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__datawarehouse/footer__datawarehouse.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__mail/footer__mail.css);
+
+a {
+  text-decoration: none;
+  transition: opacity ease-out 1s;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input[type="radio"],
+label {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  position: relative;
+  height: 5px;
+  width: 5px;
+  background-color: white;
+  border-radius: 100%;
+  margin-right: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+input[type="radio"]::before {
+  width: 10px;
+  height: 10px;
+  transform: translate(-50%, -50%);
+  background-color: #f063b8;
+  border: 2px solid white;
+}
+
+input[type="radio"]:checked {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #f063b8;
+  visibility: visible;
+}
+
+.body {
+  background: linear-gradient(180deg, #e4eff8 0%, #ffffff 35%);
+}
+
+.href-about {
+  color: black;
+}
+
+.slider-controls {
+  display: flex;
+  margin-top: 250px;
+  margin-left: 60px;
+  margin-right: 60px;
+  justify-content: space-between;
+}
+
+.slider-controls__button {
+  width: 20px;
+  height: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  background-color: #9c69e2;
+  color: #ffffff;
+  opacity: 0.5;
+
+  transition: transform 1s;
+}
+
+.slider-controls__button:hover {
+  transform: scale(1.8);
+  opacity: 1;
+}
+
+.idHeader {
+  position: fixed;
+  z-index: 9999;
+  bottom: 0%;
+  right: 0%;
+  background: #9c69e2;
+  opacity: 0.4;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 20px;
+}
+
+.idHeader:hover {
+  opacity: 1;
+}

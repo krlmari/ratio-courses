@@ -1,0 +1,17 @@
+.about-place {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 99px;
+  width: 100%;
+  height: 560px;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 810px) {
+  .about-place {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 65px;
+  }
+}

@@ -1,0 +1,11 @@
+.features__header {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 594px;
+}
+
+@media screen and (max-width: 580px) {
+  .features__header {
+    padding: 0 20px;
+  }
+}

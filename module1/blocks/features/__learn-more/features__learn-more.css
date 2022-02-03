@@ -1,0 +1,9 @@
+.features__learn-more {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+  color: #212353;
+}

@@ -1,0 +1,18 @@
+.about {
+  position: relative;
+  overflow: hidden;
+  margin-top: 143px;
+  height: 600px;
+}
+
+@media screen and (max-width: 1260px) {
+  .about {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .about {
+    margin-top: 80px;
+  }
+}

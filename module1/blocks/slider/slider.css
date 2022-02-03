@@ -1,0 +1,11 @@
+.slider {
+  margin: 0 auto;
+  margin-left: 63px;
+  top: 220px;
+  z-index: 2;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 400px;
+}

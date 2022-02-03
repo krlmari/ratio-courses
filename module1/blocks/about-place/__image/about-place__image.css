@@ -1,0 +1,20 @@
+.about-place__image {
+  height: 496px;
+  max-width: 496px;
+}
+
+@media screen and (max-width: 580px) {
+  .about-place__image {
+    height: 300px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .about-place__image {
+    display: flex;
+    margin: 0 auto;
+    height: 496px;
+    max-width: 496px;
+  }
+}

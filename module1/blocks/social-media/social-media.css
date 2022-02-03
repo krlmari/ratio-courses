@@ -1,0 +1,17 @@
+.social-media {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1260px) {
+  .social-media {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .social-media {
+    margin-top: 20px;
+  }
+}

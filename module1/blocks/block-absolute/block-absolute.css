@@ -1,0 +1,6 @@
+.block-absolute {
+  left: 63px;
+  z-index: 1;
+  padding: 0;
+  position: absolute;
+}

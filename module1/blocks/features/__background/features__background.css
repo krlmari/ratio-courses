@@ -1,0 +1,37 @@
+.features__background {
+  width: 400px;
+  height: 400px;
+}
+
+#features__card-1 .features__background {
+  background-image: url(images/Vector-56.svg), url(../../../images/Ellipse-61.svg),
+    url(../../../images/features-1.svg);
+  background-repeat: no-repeat;
+  background-position: top 20px right, top 44px right 105px, 0px 0px;
+}
+
+#features__card-2 .features__background {
+  background-image: url(../../../images/Vector-56.svg), url(../../../images/features-2.svg);
+  background-repeat: no-repeat;
+  background-position: top 146px right 10px, 0px 0px;
+  transform: rotate(180deg), rotate(180deg);
+}
+
+#features__card-3 .features__background {
+  background-image: url(../../../images/Ellipse-61.svg), url(../../../images/features-3.svg);
+  background-repeat: no-repeat;
+  background-position: top 20px right 10px, 0px 0px;
+}
+
+#features__card-4 .features__background {
+  background-image: url(images/Vector-56.svg), url(images/Ellipse-61.svg),
+    url(../../../images/features-4.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 64px left 40px, top 20px right 10px, 0px 0px;
+}
+
+@media screen and (max-width: 580px) {
+  .features__background {
+    width: 280px;
+  }
+}
