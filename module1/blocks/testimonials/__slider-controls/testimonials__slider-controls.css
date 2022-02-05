@@ -1,0 +1,13 @@
+.testimonials__slider-controls {
+  display: flex;
+  margin-top: 250px;
+  margin-left: 60px;
+  margin-right: 60px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 580px) {
+  .testimonials__slider-controls {
+    margin-bottom: 80px;
+  }
+}

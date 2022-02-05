@@ -9,6 +9,8 @@
 @import url(../blocks/horizontal-line/horizontal-line.css);
 @import url(../blocks/button/button.css);
 
+@import url(../blocks/body/body.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
@@ -52,6 +54,9 @@
 @import url(../blocks/slider/__name/slider__name.css);
 @import url(../blocks/slider/__text/slider__text.css);
 
+@import url(../blocks/testimonials/__slider-controls/testimonials__slider-controls.css);
+@import url(../blocks/testimonials/____button/testimonials____button.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__address/footer__address.css);
 @import url(../blocks/footer/__conteiner/footer__conteiner.css);
@@ -66,6 +71,8 @@
 @import url(../blocks/footer/__datawarehouse/footer__datawarehouse.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__mail/footer__mail.css);
+
+@import url(../blocks/idHeader/idHeader.css);
 
 a {
   text-decoration: none;
@@ -115,59 +122,6 @@ input[type="radio"]:checked {
   visibility: visible;
 }
 
-.body {
-  background: linear-gradient(180deg, #e4eff8 0%, #ffffff 35%);
-}
-
 .href-about {
   color: black;
-}
-
-.slider-controls {
-  display: flex;
-  margin-top: 250px;
-  margin-left: 60px;
-  margin-right: 60px;
-  justify-content: space-between;
-}
-
-.slider-controls__button {
-  width: 20px;
-  height: 14px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  margin-left: 20px;
-  background-color: #9c69e2;
-  color: #ffffff;
-  opacity: 0.5;
-
-  transition: transform 1s;
-}
-
-.slider-controls__button:hover {
-  transform: scale(1.8);
-  opacity: 1;
-}
-
-@media screen and (max-width: 580px) {
-  .slider-controls {
-    margin-bottom: 80px;
-  }
-}
-
-.idHeader {
-  position: fixed;
-  z-index: 9999;
-  bottom: 0%;
-  right: 0%;
-  background: #9c69e2;
-  opacity: 0.4;
-  color: #fff;
-  padding: 10px 15px;
-  margin: 20px;
-}
-
-.idHeader:hover {
-  opacity: 1;
 }
