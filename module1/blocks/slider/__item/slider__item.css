@@ -4,8 +4,15 @@
   align-content: center;
   align-items: center;
   min-width: 635px;
-  height: 330px;
+  min-height: 330px;
   margin-right: 20px;
   border-radius: 20px;
   background-color: white;
+}
+
+@media screen and (max-width: 718px) {
+  .slider__item {
+    min-width: auto;
+    width: 80vw;
+  }
 }

@@ -6,3 +6,9 @@
   background-image: url("./images/avatar.jpg");
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 580px) {
+  .slider__avatar {
+    margin-left: 10px;
+  }
+}
