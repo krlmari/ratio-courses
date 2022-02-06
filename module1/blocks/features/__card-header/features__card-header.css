@@ -7,3 +7,9 @@
   color: #212353;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 580px) {
+  .features__card-header {
+    align-self: center;
+  }
+}

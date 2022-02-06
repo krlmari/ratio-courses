@@ -5,13 +5,11 @@
   position: absolute;
   left: 45%;
   top: 5%;
-  margin-right: 10px;
 }
 
 @media screen and (max-width: 580px) {
   .features__text {
-    top: 90px;
-    height: 200px;
-    left: 50px;
+    top: 40px;
+    left: 45px;
   }
 }
