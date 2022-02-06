@@ -1,13 +1,17 @@
 .features__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
-  top: 49px;
-  right: 50px;
-  max-width: 220px;
+  left: 45%;
+  top: 5%;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 580px) {
   .features__text {
-    top: 55px;
-    right: 10px;
+    top: 90px;
+    height: 200px;
+    left: 50px;
   }
 }
